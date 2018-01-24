@@ -1,0 +1,9 @@
+c:\users\kzyz\documents\visual studio 2017\Projects\BiuroNieruchomosci\BiuroNieruchomosci\bin\Debug\BiuroNieruchomosci.exe.config
+c:\users\kzyz\documents\visual studio 2017\Projects\BiuroNieruchomosci\BiuroNieruchomosci\bin\Debug\BiuroNieruchomosci.exe
+c:\users\kzyz\documents\visual studio 2017\Projects\BiuroNieruchomosci\BiuroNieruchomosci\bin\Debug\BiuroNieruchomosci.pdb
+c:\users\kzyz\documents\visual studio 2017\Projects\BiuroNieruchomosci\BiuroNieruchomosci\obj\Debug\BiuroNieruchomosci.csprojResolveAssemblyReference.cache
+c:\users\kzyz\documents\visual studio 2017\Projects\BiuroNieruchomosci\BiuroNieruchomosci\obj\Debug\BiuroNieruchomosci.Properties.Resources.resources
+c:\users\kzyz\documents\visual studio 2017\Projects\BiuroNieruchomosci\BiuroNieruchomosci\obj\Debug\BiuroNieruchomosci.csproj.GenerateResource.Cache
+c:\users\kzyz\documents\visual studio 2017\Projects\BiuroNieruchomosci\BiuroNieruchomosci\obj\Debug\BiuroNieruchomosci.exe
+c:\users\kzyz\documents\visual studio 2017\Projects\BiuroNieruchomosci\BiuroNieruchomosci\obj\Debug\BiuroNieruchomosci.pdb
+c:\users\kzyz\documents\visual studio 2017\Projects\BiuroNieruchomosci\BiuroNieruchomosci\obj\Debug\BiuroNieruchomosci.Form1.resources

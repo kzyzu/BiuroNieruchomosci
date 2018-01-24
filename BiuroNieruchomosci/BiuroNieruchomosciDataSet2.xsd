@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="BiuroNieruchomosciDataSet2" targetNamespace="http://tempuri.org/BiuroNieruchomosciDataSet2.xsd" xmlns:mstns="http://tempuri.org/BiuroNieruchomosciDataSet2.xsd" xmlns="http://tempuri.org/BiuroNieruchomosciDataSet2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="BiuroNieruchomosciConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="BiuroNieruchomosciConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.BiuroNieruchomosci.Properties.Settings.GlobalReference.Default.BiuroNieruchomosciConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="View_NieruchomosciListaTableAdapter" GeneratorDataComponentClassName="View_NieruchomosciListaTableAdapter" Name="View_NieruchomosciLista" UserDataComponentName="View_NieruchomosciListaTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="BiuroNieruchomosciConnectionString (Settings)" DbObjectName="BiuroNieruchomosci.dbo.View_NieruchomosciLista" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Nazwa, Miejscowosc, Ulica, Powierzchnia, CenaOfertowa, Rodzaj, DataWystawienia, CzySprzedana, DataSprzedazy FROM dbo.View_NieruchomosciLista</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Nazwa" DataSetColumn="Nazwa" />
+              <Mapping SourceColumn="Miejscowosc" DataSetColumn="Miejscowosc" />
+              <Mapping SourceColumn="Ulica" DataSetColumn="Ulica" />
+              <Mapping SourceColumn="Powierzchnia" DataSetColumn="Powierzchnia" />
+              <Mapping SourceColumn="CenaOfertowa" DataSetColumn="CenaOfertowa" />
+              <Mapping SourceColumn="Rodzaj" DataSetColumn="Rodzaj" />
+              <Mapping SourceColumn="DataWystawienia" DataSetColumn="DataWystawienia" />
+              <Mapping SourceColumn="CzySprzedana" DataSetColumn="CzySprzedana" />
+              <Mapping SourceColumn="DataSprzedazy" DataSetColumn="DataSprzedazy" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="BiuroNieruchomosciDataSet2" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="BiuroNieruchomosciDataSet2" msprop:Generator_UserDSName="BiuroNieruchomosciDataSet2">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="View_NieruchomosciLista" msprop:Generator_TableClassName="View_NieruchomosciListaDataTable" msprop:Generator_TableVarName="tableView_NieruchomosciLista" msprop:Generator_TablePropName="View_NieruchomosciLista" msprop:Generator_RowDeletingName="View_NieruchomosciListaRowDeleting" msprop:Generator_RowChangingName="View_NieruchomosciListaRowChanging" msprop:Generator_RowEvHandlerName="View_NieruchomosciListaRowChangeEventHandler" msprop:Generator_RowDeletedName="View_NieruchomosciListaRowDeleted" msprop:Generator_UserTableName="View_NieruchomosciLista" msprop:Generator_RowChangedName="View_NieruchomosciListaRowChanged" msprop:Generator_RowEvArgName="View_NieruchomosciListaRowChangeEvent" msprop:Generator_RowClassName="View_NieruchomosciListaRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Nazwa" msprop:Generator_ColumnVarNameInTable="columnNazwa" msprop:Generator_ColumnPropNameInRow="Nazwa" msprop:Generator_ColumnPropNameInTable="NazwaColumn" msprop:Generator_UserColumnName="Nazwa">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Miejscowosc" msprop:Generator_ColumnVarNameInTable="columnMiejscowosc" msprop:Generator_ColumnPropNameInRow="Miejscowosc" msprop:Generator_ColumnPropNameInTable="MiejscowoscColumn" msprop:Generator_UserColumnName="Miejscowosc">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Ulica" msprop:Generator_ColumnVarNameInTable="columnUlica" msprop:Generator_ColumnPropNameInRow="Ulica" msprop:Generator_ColumnPropNameInTable="UlicaColumn" msprop:Generator_UserColumnName="Ulica">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Powierzchnia" msprop:Generator_ColumnVarNameInTable="columnPowierzchnia" msprop:Generator_ColumnPropNameInRow="Powierzchnia" msprop:Generator_ColumnPropNameInTable="PowierzchniaColumn" msprop:Generator_UserColumnName="Powierzchnia" type="xs:decimal" />
+              <xs:element name="CenaOfertowa" msprop:Generator_ColumnVarNameInTable="columnCenaOfertowa" msprop:Generator_ColumnPropNameInRow="CenaOfertowa" msprop:Generator_ColumnPropNameInTable="CenaOfertowaColumn" msprop:Generator_UserColumnName="CenaOfertowa" type="xs:decimal" />
+              <xs:element name="Rodzaj" msprop:Generator_ColumnVarNameInTable="columnRodzaj" msprop:Generator_ColumnPropNameInRow="Rodzaj" msprop:Generator_ColumnPropNameInTable="RodzajColumn" msprop:Generator_UserColumnName="Rodzaj">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DataWystawienia" msprop:Generator_ColumnVarNameInTable="columnDataWystawienia" msprop:Generator_ColumnPropNameInRow="DataWystawienia" msprop:Generator_ColumnPropNameInTable="DataWystawieniaColumn" msprop:Generator_UserColumnName="DataWystawienia" type="xs:dateTime" />
+              <xs:element name="CzySprzedana" msprop:Generator_ColumnVarNameInTable="columnCzySprzedana" msprop:Generator_ColumnPropNameInRow="CzySprzedana" msprop:Generator_ColumnPropNameInTable="CzySprzedanaColumn" msprop:Generator_UserColumnName="CzySprzedana" type="xs:boolean" />
+              <xs:element name="DataSprzedazy" msprop:Generator_ColumnVarNameInTable="columnDataSprzedazy" msprop:Generator_ColumnPropNameInRow="DataSprzedazy" msprop:Generator_ColumnPropNameInTable="DataSprzedazyColumn" msprop:Generator_UserColumnName="DataSprzedazy" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
